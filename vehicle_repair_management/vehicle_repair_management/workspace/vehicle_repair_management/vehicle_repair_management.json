@@ -1,7 +1,7 @@
 {
  "charts": [],
- "content": "[{\"id\":\"CJlwjsEOD7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Vehicle Repair</span>\",\"col\":12}},{\"id\":\"ZXBCb7YCIK\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
- "creation": "2023-07-11 09:52:58.092188",
+ "content": "[{\"id\":\"AevY9l7vY4\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Vehicle Repair Management</span>\",\"col\":12}},{\"id\":\"cika2z07W-\",\"type\":\"card\",\"data\":{\"card_name\":\"Vehicles\",\"col\":4}}]",
+ "creation": "2023-07-11 10:07:21.958321",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -10,12 +10,12 @@
  "icon": "tool",
  "idx": 0,
  "is_hidden": 0,
- "label": "Vehicle Repair",
+ "label": "Vehicle Repair Management",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Settings",
+   "label": "Vehicles",
    "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
@@ -33,7 +33,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Brand",
+   "label": "Brands",
    "link_count": 0,
    "link_to": "Brand",
    "link_type": "DocType",
@@ -41,10 +41,10 @@
    "type": "Link"
   }
  ],
- "modified": "2023-07-11 09:57:18.031823",
+ "modified": "2023-07-11 10:08:11.817825",
  "modified_by": "Administrator",
- "module": "Vehicle Repair",
- "name": "Vehicle Repair",
+ "module": "Vehicle Repair Management",
+ "name": "Vehicle Repair Management",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -53,5 +53,5 @@
  "roles": [],
  "sequence_id": 33.0,
  "shortcuts": [],
- "title": "Vehicle Repair"
+ "title": "Vehicle Repair Management"
 }
