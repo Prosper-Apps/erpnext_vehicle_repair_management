@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"AevY9l7vY4\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Vehicle Repair Management</span>\",\"col\":12}},{\"id\":\"cika2z07W-\",\"type\":\"card\",\"data\":{\"card_name\":\"Vehicles\",\"col\":4}}]",
+ "content": "[{\"id\":\"AevY9l7vY4\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Vehicle Repair Management</span>\",\"col\":12}},{\"id\":\"X4f1m4pqnw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Repairs\",\"col\":3}},{\"id\":\"TACyghqYAk\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"cika2z07W-\",\"type\":\"card\",\"data\":{\"card_name\":\"Vehicles\",\"col\":4}}]",
  "creation": "2023-07-11 10:07:21.958321",
  "custom_blocks": [],
  "docstatus": 0,
@@ -25,7 +25,7 @@
    "is_query_report": 0,
    "label": "Vehicles",
    "link_count": 0,
-   "link_to": "Item",
+   "link_to": "Vehicle",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -33,15 +33,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Brands",
+   "label": "Items",
    "link_count": 0,
-   "link_to": "Brand",
+   "link_to": "Item",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2023-07-11 10:08:11.817825",
+ "modified": "2023-07-12 08:09:43.455218",
  "modified_by": "Administrator",
  "module": "Vehicle Repair Management",
  "name": "Vehicle Repair Management",
@@ -52,6 +52,16 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 33.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "format": "{} Open",
+   "label": "Repairs",
+   "link_to": "Project",
+   "stats_filter": "{\"status\":[\"=\",\"Open\"]}",
+   "type": "DocType"
+  }
+ ],
  "title": "Vehicle Repair Management"
 }
