@@ -102,6 +102,12 @@ doctype_js = {"Project" : "public/js/project.js"}
 # ---------------
 # Hook on document methods and events
 
+doc_events = {
+    "Project": {
+        "on_update": "vehicle_repair_management.doctype.project.project.on_update"
+    }
+}
+
 # doc_events = {
 #	"*": {
 #		"on_update": "method",
